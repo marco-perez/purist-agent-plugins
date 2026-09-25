@@ -35,17 +35,15 @@
 
 Do not invoke generation, share designs publicly, or use production administrative access for review. Tool registration is not proof of end-to-end acceptance.
 
-## Exact publication actions remaining
+## Public directory routes
 
-These actions are **not executed by this package preparation**:
+The source repository is `https://github.com/marco-perez/purist-agent-plugins`. It contains only this package. Public directory submission and approval are separate from making the source public.
 
-1. Package-only destination: `https://github.com/marco-perez/purist-agent-plugins` (created in the user's signed-in GitHub account as a **private** repository on 25 September 2026). Its private status is not publication. Explicit authorization is still required before making it public or submitting/distributing any listing. The support contact, live privacy/terms links, and package license are recorded above. The site legal-page source still notes unresolved entity/address/jurisdiction details for separate legal review.
-2. Complete missing native-client/desktop-UI acceptance from the dated workspace verification report. Resolve app sign-in or agent authentication/access failures without turning on paid fallback. Add a reviewer screenshot only after visually verifying it.
-3. Publish **this directory only** as the selected repository root, including hidden directories; do not expose the application/backend repository, workspace artifacts, test profiles or credentials. Set the real repository metadata, commit the package and tag its reviewed version. Public availability and ownership must be checked then.
-4. **Cursor:** with the published source URL, submit at https://cursor.com/marketplace/publish. Include listing copy, logo and reviewer steps. Wait for Cursor review; only after approval/publication advertise `/add-plugin purist-desktop`. Local `--plugin-dir` or a custom catalog is not a curated approval.
-5. **Claude Code:** distribute the Purist-owned Git marketplace URL and `claude plugin install purist-desktop@purist`. Git-marketplace publication does not require or imply Anthropic's curated approval. If curated inclusion is desired, make a separate explicit submission decision and follow the then-current Anthropic submission route.
-6. **Codex:** distribute the Purist-owned Git marketplace URL via `codex plugin marketplace add <approved-git-url>`, then `codex plugin add purist-desktop@purist` on supported local clients. Custom-marketplace distribution does not imply approval in OpenAI's public directory. Any public-directory submission is a separate authorized action with its own current requirements; this package does not create a hosted MCP registration.
-7. Record submission IDs, review decisions and public listing URLs only after those events occur. Keep packaged, tested, submitted, approved and published as separate fields.
+1. **Cursor:** submit the public repository at https://cursor.com/marketplace/publish. Include the listing copy, logo and reviewer steps above. Advertise `/add-plugin purist-desktop` as a marketplace install only after Cursor publishes the listing.
+2. **Claude Code:** submit at https://clau.de/plugin-directory-submission for Anthropic's community marketplace. The Purist-owned Git marketplace is an additional direct install route, not community approval. Claude model workflow acceptance remains blocked by a 401 until an entitled reviewer account is available.
+3. **Codex:** the public Plugins Directory currently requires a remote HTTPS MCP endpoint for MCP-backed submissions and directs local-only publishers to contact OpenAI for local MCP support. This package intentionally uses the desktop endpoint; a public directory submission requires an official local-MCP exception. The Purist-owned Git marketplace is an additional direct install route, not public-directory approval.
+
+Record submission IDs, review decisions and public listing URLs only after those events occur. Keep packaged, tested, submitted, approved and published as separate fields. Do not enable hosted MCP or paid generation to satisfy a directory requirement.
 
 ## Source basis
 
