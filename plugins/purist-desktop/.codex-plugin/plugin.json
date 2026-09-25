@@ -1,0 +1,43 @@
+{
+  "name": "purist-desktop",
+  "version": "0.1.0",
+  "description": "Create and refine designs with your AI agent.",
+  "author": {
+    "name": "Purist",
+    "email": "support@purist.design",
+    "url": "https://purist.design"
+  },
+  "homepage": "https://purist.design",
+  "license": "MIT",
+  "keywords": [
+    "purist",
+    "design",
+    "canvas",
+    "mcp",
+    "local"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Purist",
+    "shortDescription": "Create and refine designs with your AI agent.",
+    "longDescription": "Bring your AI agent into Purist to create layouts, inspect layers and styles, and refine text and spacing. Review changes with screenshots of your canvas. Requires the Purist app to be open on the same computer.",
+    "developerName": "Purist",
+    "category": "Design",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://purist.design",
+    "privacyPolicyURL": "https://purist.design/privacy",
+    "termsOfServiceURL": "https://purist.design/terms",
+    "brandColor": "#171717",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": [
+      "Create a simple settings screen in Purist.",
+      "Review my Purist design and suggest layout improvements.",
+      "Refine the typography and spacing in my Purist design."
+    ]
+  }
+}

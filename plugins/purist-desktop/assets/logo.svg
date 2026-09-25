@@ -1,0 +1,10 @@
+<!-- The Purist mark, as a square app tile: the quatrefoil — four circles, no
+     centre, the Seed of Life at 90° — drawn as a line. Same geometry as the
+     favicon in purist-web/static/favicon.svg and the site's nav mark.
+     Cream #f2f0ea on the app's own ground #161618. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <rect width="120" height="120" rx="27" fill="#161618"/>
+  <g transform="translate(13 13) scale(0.94)">
+    <path fill="none" stroke="#f2f0ea" stroke-width="6.4" stroke-linejoin="round" d="M92.71 66.26 A26.45 26.45 0 1 1 39.81 66.26 A26.45 26.45 0 1 1 92.71 66.26ZM60.19 66.26 A26.45 26.45 0 1 1 7.29 66.26 A26.45 26.45 0 1 1 60.19 66.26ZM60.19 33.74 A26.45 26.45 0 1 1 7.29 33.74 A26.45 26.45 0 1 1 60.19 33.74ZM92.71 33.74 A26.45 26.45 0 1 1 39.81 33.74 A26.45 26.45 0 1 1 92.71 33.74Z"/>
+  </g>
+</svg>

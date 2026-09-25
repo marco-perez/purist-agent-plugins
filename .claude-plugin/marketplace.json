@@ -1,0 +1,18 @@
+{
+  "name": "purist",
+  "owner": {
+    "name": "Purist",
+    "email": "support@purist.design"
+  },
+  "metadata": {
+    "description": "Design with Purist and your AI agent.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "purist-desktop",
+      "source": "./plugins/purist-desktop",
+      "description": "Create and refine designs with your AI agent."
+    }
+  ]
+}

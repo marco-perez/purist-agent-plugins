@@ -1,0 +1,21 @@
+{
+  "name": "purist-desktop",
+  "version": "0.1.0",
+  "description": "Create and refine designs with your AI agent.",
+  "author": {
+    "name": "Purist",
+    "email": "support@purist.design"
+  },
+  "homepage": "https://purist.design",
+  "license": "MIT",
+  "keywords": [
+    "purist",
+    "design",
+    "canvas",
+    "mcp",
+    "local"
+  ],
+  "mcpServers": "./.mcp.json",
+  "displayName": "Purist",
+  "logo": "./assets/logo.svg"
+}

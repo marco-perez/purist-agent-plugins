@@ -1,0 +1,20 @@
+{
+  "name": "purist",
+  "interface": {
+    "displayName": "Purist"
+  },
+  "plugins": [
+    {
+      "name": "purist-desktop",
+      "source": {
+        "source": "local",
+        "path": "./plugins/purist-desktop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
