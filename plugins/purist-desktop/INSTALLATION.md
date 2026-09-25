@@ -6,7 +6,7 @@ The packaged commands were exercised with Claude Code 2.1.104, Cursor Agent CLI 
 
 Choose **one** connection for each client: the plugin below, or Purist's existing Connect panel/direct setup. Before migrating, inspect the client's MCP list and back up its configuration. Disable/remove only an existing Purist connection after confirming its name and URL; leave other servers and preferences intact. Keep separately configured hosted Purist disabled in a local session to avoid duplicate tool sets. Installing this plugin does not change Purist's mode or existing MCP settings.
 
-In the commands below, `/absolute/path/to/agent-plugins` means this complete marketplace directory, containing `plugins/` and the three hidden marketplace directories. A future published Git repository can replace that local path once available; do not use a URL to a standalone marketplace JSON file.
+In the local-development commands below, `/absolute/path/to/agent-plugins` means this complete marketplace directory, containing `plugins/` and the three hidden marketplace directories. The public Git repository can be used for Codex installation as shown below; do not use a URL to a standalone marketplace JSON file.
 
 ## Claude Code
 
@@ -30,7 +30,17 @@ Restart the session. Remove with `claude plugin uninstall purist-desktop@purist`
 
 ## Codex CLI and desktop app
 
-On versions that expose `codex plugin`:
+For the public Git marketplace, use:
+
+```sh
+codex plugin marketplace add marco-perez/purist-agent-plugins
+codex plugin add purist-desktop@purist
+codex plugin list
+```
+
+On Codex builds with custom marketplace browser support, browse the Purist marketplace after adding the source. This is a public Git install route, not a listing in OpenAI's public Plugins Directory.
+
+For a local checkout during development, use:
 
 ```sh
 codex plugin marketplace add /absolute/path/to/agent-plugins

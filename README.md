@@ -2,6 +2,17 @@
 
 A single local Purist integration with native Cursor, Claude Code and Codex manifests. Each connects to the existing desktop MCP endpoint; no hosted setup or new server is included.
 
+## Codex
+
+Add the public Purist Git marketplace and install the desktop plugin:
+
+```sh
+codex plugin marketplace add marco-perez/purist-agent-plugins
+codex plugin add purist-desktop@purist
+```
+
+Open Purist on the same computer, then start a new Codex task. The plugin uses Purist's local MCP server. On Codex builds with custom marketplace browser support, browse the Purist marketplace after adding the source. This Git install is separate from OpenAI's public Plugins Directory; Purist is not listed there. See the [installation guide](plugins/purist-desktop/INSTALLATION.md) for verification, updates and removal.
+
 - [Plugin overview](plugins/purist-desktop/README.md)
 - [Installation, update, removal and troubleshooting](plugins/purist-desktop/INSTALLATION.md)
 - [Submission materials](SUBMISSION.md)
